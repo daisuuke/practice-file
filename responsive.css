@@ -144,7 +144,7 @@
 
 
 /*小画面用レイアウト*/
-@media (max-width: 390px) {
+@media (max-width: 460px) {
   header .fa-solid,
   .main-top-text h3,
   .main-bottom-text h3 {

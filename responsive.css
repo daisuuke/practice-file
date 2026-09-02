@@ -1,0 +1,236 @@
+/*タブレット用レイアウト*/
+@media (max-width: 900px) {
+  header {
+    width: 100%;
+  }
+  header .fa-solid,
+  .main-top-text h3,
+  .main-bottom-text h3 {
+    font-size: 22px;
+  }
+  .header-list {
+    margin: 0;
+  }
+  .header-list a{
+    font-size: 15px;
+  }
+  .header-logo a,
+  .front-text h4,
+  .form-list p {
+    font-size: 16px;
+  }
+  .front-text h1 {
+    font-size: 30px;
+  }
+  .insta,
+  .facebook,
+  .youtube {
+    width: 15%;
+  }
+  .sns-btn a {
+    font-size: 12px;
+  }
+  .main-top-text p,
+  .main-bottom-text p {
+    font-size: 13px;
+  }
+  .footer-list li {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+/*スマホ用レイアウト(同じ値を指定するものはまとめて記載してる)*/
+@media (max-width: 670px) {
+  header .fa-solid,
+  .main-top-text h3,
+  .main-bottom-text h3 {
+    font-size: 20px;
+  }
+  .header-logo a,
+  .front-text h4,
+  .form-list p {
+    font-size: 15px;
+  }
+  .header-list {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .front-text h1 {
+    font-size: 22px;
+  }
+  .sns-btn,
+  .footer-logo {
+    font-size: 13px;
+  }
+  .insta,
+  .facebook, 
+  .youtube {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .face-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+  }
+  .facebook, 
+  .youtube {
+    border-radius: 5px;
+  }
+  .main-top-text p,
+  .main-bottom-text p {
+    font-size: 12px;
+  }
+  .form-left {
+    padding: 5px 0;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 5px 0;
+  }
+  .form-container p {
+    margin: 5px 0;
+  }
+  .form-list {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+  .form-cube {
+    border: 0;
+    display: block;
+    height: 100%;
+  }
+  .form-left textarea {
+    height: 100px;
+    font-size: 13px;
+  }
+  .form-input input {
+    height: 100%;
+  }
+  .footer-container {
+    padding: 15px 0;
+  }
+  .footer-list ul {
+    margin: 0;
+  }
+  .footer-list li {
+    display: block;
+    font-size: 12px;
+    margin: 5px 0 0 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*小画面用レイアウト*/
+@media (max-width: 390px) {
+  header .fa-solid,
+  .main-top-text h3,
+  .main-bottom-text h3 {
+    font-size: 15px;
+  }
+  .header-logo a {
+    font-size: 14px;
+  }
+  .front-text h4 {
+    font-size: 12px;
+  }
+  .header-list {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .front-text h1 {
+    font-size: 20px;
+  }
+  .sns-btn,
+  .footer-logo {
+    font-size: 10px;
+  }
+  .insta,
+  .facebook, 
+  .youtube {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .face-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+  }
+  .main-top-text p,
+  .main-bottom-text p {
+    font-size: 7px;
+  }
+  .form-left {
+    padding: 5px 0;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 5px 0;
+  }
+  .form-container p {
+    margin: 5px 0;
+  }
+  .form-list {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+  .form-list p {
+    font-size: 12px;
+  }
+  .form-cube {
+    border: 0;
+    display: block;
+    height: 100%;
+    font-size: 12px
+  }
+  .form-left textarea {
+    height: 100px;
+    font-size: 13px;
+  }
+  .form-input input {
+    height: 100%;
+  }
+  .footer-list ul {
+    margin: 0;
+  }
+  .footer-list li {
+    display: block;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .footer-container {
+    margin: 0;
+    padding: 10px 0;
+  }
+}
